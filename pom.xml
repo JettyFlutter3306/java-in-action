@@ -3,8 +3,31 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
 
     <description>重新梳理Java基础知识</description>
+    <modules>
+        <module>java-base</module>
+        <module>java-oop</module>
+        <module>java-extends-reflect</module>
+        <module>java-interface-lambda</module>
+        <module>java-exception-assert</module>
+        <module>java-generic</module>
+        <module>java-collection</module>
+        <module>java-deploy-jar</module>
+        <module>java-thread-concurrent</module>
+        <module>java-function-stream</module>
+        <module>java-io-file</module>
+        <module>java-xml</module>
+        <module>java-socket</module>
+        <module>java-jdbc</module>
+        <module>java-time-date</module>
+        <module>java-locale</module>
+        <module>java-script-annotation</module>
+        <module>java-security</module>
+        <module>java-native-method</module>
+        <module>java-swing-gui</module>
+    </modules>
 
     <groupId>org.example</groupId>
     <artifactId>Java-in-action</artifactId>
