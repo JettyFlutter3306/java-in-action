@@ -79,12 +79,12 @@ public class CreatingStreams {
             show("lines", lines);
         }
 
-        final Iterable<Path> iterable = FileSystems.getDefault().getRootDirectories();
-        final Stream<Path> rootDirectories = StreamSupport.stream(iterable.spliterator(), false);
+        Iterable<Path> iterable = FileSystems.getDefault().getRootDirectories();
+        Stream<Path> rootDirectories = StreamSupport.stream(iterable.spliterator(), false);
         show("rootDirectories", rootDirectories);
 
-        final Iterator<Path> iterator = Paths.get(url).iterator();
-        final Stream<Path> pathComponents = StreamSupport.stream(Spliterators.spliteratorUnknownSize(iterator, Spliterator.ORDERED), false);
+        Iterator<Path> iterator = Paths.get(url).iterator();
+        Stream<Path> pathComponents = StreamSupport.stream(Spliterators.spliteratorUnknownSize(iterator, Spliterator.ORDERED), false);
         show("pathComponents", pathComponents);
     }
 
