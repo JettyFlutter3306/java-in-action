@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<stundents>
+    <student>
+        <name>洛必达</name>
+        <age>15</age>
+        <gender>男</gender>
+        <address>艾泽拉斯</address>
+    </student>
+
+    <student>
+        <name>牛顿</name>
+        <age>20</age>
+        <gender>女</gender>
+        <address>铁炉堡</address>
+    </student>
+
+    <student>
+        <name>莱布尼茨</name>
+        <age>90</age>
+        <gender>未知</gender>
+        <address>暴风城</address>
+    </student>
+</stundents>
